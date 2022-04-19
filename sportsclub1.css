@@ -1,0 +1,285 @@
+*{
+margin: 0;
+padding: 0;
+font-family: century gothic;
+}
+body{
+background-color:black;
+}
+
+header
+{
+background-image: url(project16.jpg);
+background-size: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+ul
+{
+float: right;
+list-style-type: none;
+margin-top: 50px;
+margin-right: -100px;
+}
+
+ul li
+{
+display: inline-block;
+}
+ul li a
+{
+text-decoration:none;
+color: gray;
+padding: 15px 20px;
+border: 1px solid white;
+transition:0.6s ease;
+}
+
+ul li a:hover
+{
+background-color: rgb(103, 133, 132);
+color: black;
+}
+
+.logo img
+{
+float: left;
+width: 150px;
+height: 150px;
+padding: 15px 20 px;
+border: 0px solid black;
+margin-left: -120px;
+}
+.main
+{
+max-width: 1200px;
+margin: auto;
+}
+
+.clubs
+{
+left:720px;
+bottom: 35px;
+position: absolute;
+}
+.clubs ul li
+{
+list-style:none;
+margin-top: 25px;
+text-align: left;
+}
+.clubs ul li a{
+color:white;
+border-radius: 150%;
+border: 2px solid black;
+padding: 10px;
+display: block;
+}
+.clubs ul li a:hover{
+background-color: white;
+color: black;
+}
+
+.clubs ul li h1{
+color: orange;
+padding: 8px 12px;
+border-radius: 100%;
+border:3px solid white;
+}
+.heading h1 a{
+color:sky blue;
+padding:15px 20px;
+border-radius:10%;
+border:2px solid white;
+cursor: pointer;
+}
+.heading h1 a:hover
+{
+background-color:white;
+color:black;
+}
+
+.heading h3{
+color:orange;
+}
+.heading p1
+{
+font-size:20px;
+color: white;
+padding:50px 15px;
+}
+.heading p2{
+font-size: 20px;
+color:white;
+padding:50px 15px;
+}
+.end h1
+{
+    background-color: gray;
+font-size:50px;
+color:yellow;
+padding: 5px 10px;
+border:1px solid white;
+}
+#menu{
+        position:fixed;
+        top:2px;right:2px;
+        background:#333;
+        color:#fff;
+        cursor:pointer;
+        font-size: 2.5px;
+        padding:1px 1.5px;
+        z-index:1000 ;
+
+    }
+    .ABOUT
+    {
+        font-style:"serif";
+        background-color: black ;
+        }
+        
+        h1
+        {
+        font-size:50px;
+        margin: 35px 50px;
+        border-radius:10px;
+        border: 1px solid rgb(157, 120, 120);
+        }
+        
+        h2
+        {
+            color:pink;
+        margin-left: 50px;
+        font-size: 30px;
+        }
+        p
+        {
+         color: black;
+        margin-left:50px;
+        margin-right: 50px;
+        font-size: 20px;
+        }
+        li
+        {
+        color:orange;
+        margin-left:20px;
+        font-size:20px;
+        }
+        
+    
+.subscription
+{
+    background-image: url("project10.jpg");
+    background-size:100% 700px;
+    background-color: orange;
+}
+    .register
+    {
+    background: pink;
+    width:500px;
+    margin: 0px 0px 0px 500px;
+    color:black;
+    font-size:15px;
+    padding:20px;
+    border-radius:10px;
+    }
+    h1
+    {
+    color:yellow;
+    text-align:center;
+    padding:10px;
+    }
+    h2
+    {
+    color:brown;
+    text-align:center;
+    padding:20px;
+    }
+    #register
+    {
+    margin-left:100px;
+    }
+    label
+    {
+    color:black;
+    font-family:sans-serif;
+    font-size:15px;
+    }
+    #name
+    {
+    width:300px;
+    border:none;
+    border-radius:3px;
+    outline:0;
+    padding:7px;
+    }
+    #ph
+    {
+    width:65px;
+    padding:7px;
+    border:none;
+    border-radius:3px;
+    outline:0;
+    }
+    #num
+    {
+    width:230px;
+    padding:7px;
+    border:none;
+    border-radius:3px;
+    outline:0;
+    }
+    #sub
+    {
+    width:200px;
+    padding:7px;
+    font-family:sans-serif;
+    font-size:15px;
+    font-style:italic;
+    font-weight:600;
+    border:none;
+    border-radius:3px;
+    outline:0;
+    }
+ .Contact
+ {
+     
+   
+    background-image:url("picture19.jpg")
+    }
+    p
+    {
+    color:white;
+    margin-left:20px;
+    font-size:20px;
+    }
+    img
+    {
+    float:center;
+    width:200px;
+    height:200px;
+    padding:15px 20px;
+    border:0px solid white;
+    margin-left: 50px;
+    margin-top: 10px;
+    }   
+     .social{
+        margin:  40px 40px;
+        text-align: center;
+    }
+     .social i{
+        color: #a52a2a;
+        font-size: 30px;
+        padding: 0px  10px;
+    }
+    .social i:hover{
+        color:pink;
+    }
+   .mySlides
+   {
+       display:none;
+       border-radius: 50px;
+       height:400%;
+       width:70px;
+   }

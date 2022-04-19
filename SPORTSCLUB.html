@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SPORTS CLUB</title>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="stylesheet" type="text/css" href="sportsclub1.css">
+<script>
+   function moveto(right,top){
+      window.scrollTo(right,top);
+   }
+  
+</script>
+</head>
+<body>
+<header>
+<div class="main">
+   <div class="logo">
+<img src="vdk.jpg">
+</div>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a  onclick="moveto('0','800')">About</a></li>
+<li><a  onclick="moveto('1100','1700')">sports</a></li>
+<li><a  onclick="moveto('1900','2250')">Subscription</a></li>
+<li><a  onclick="moveto('2300','2900')">Contact</a></li>
+<ul>
+</div>
+ <div id="menu" class="fas fa-bars"></div>
+</header>
+<div class="clubs">
+<ul>
+<li><h1><big>Clubs</big></h1></li><br/>
+<li><a href="#">Volleyball</a></li>
+<li><a href="#">Football</a></li>
+<li><a href="#">Badminton</a></li>
+<li><a href="#">Cricket</a></li>
+</ul>
+</div>
+<center>
+   <div class="ABOUT">
+      <h1 align="center" style="color: orange;"><marquee>ABOUT VDK SPORTSCLUB RUN</marquee></h1>
+<div class="image">
+<img src="vdk.jpg"></div>
+<br/>
+<h2 style="color: PINK;"><u>INTRODUCTION</u>  </h2>
+<p>
+VDK club are strictly voluntary and involvement in sport and enhance the student's college experience and contribute to the student's overall education and wellness.<br/>All programmes are based on student interest and designed to enhance the dickinson experience by creating an  environment where students  can unite in diverse group to achieve common goals and objectives while encouraging healthy lifestyles.<br/>
+The Clubs with the most success and stability are those with active members and dedicated officers.
+</p>
+<h2><u>COMPOSITION</u></h2>
+<p>
+A representive from each recognised sports club, who is in good academic and social standing.
+These members having voting rights and may represent their club on the sports club.
+The Director of Intramurals and Recreation who will not have voting rights.
+</p>
+<h2><u>RESPONSIBILITIES OF CLUB</u></h2>
+<p>
+<big>**</big>Conduct an SSC meeting at least once per month.<br/><br/>
+<big>**</big>Recommend revison of sports club manual and procedures for the following year.<br/><br/>
+<big>**</big>College-wide repreentation clubs seeking new admittance and/or reinstatement into the program.<br/><br/>
+<big>**</big>All SSC recommendations and actions are subject to the appoval orrejection by the director of intramurals
+</p>
+
+   <center><h2 style="color:blue">GALLERY OF SPORTS</h2></center>
+   <div class="slides" style="max-width: 500px">
+      <image class="mySlides" src="project21.jpg" style="width:100%">
+         <image class="mySlides" src="project22.jpg" style="width:100%">
+            <image class="mySlides" src="project23.jpg" style="width:100%">
+               <image class="mySlides" src="project24.jpg" style="width:100%">
+   
+            <image class="mySlides" src="project25.jpg" style="width:100%">
+               <image class="mySlides" src="project11.jpg" style="width:100%">
+                  <image class="mySlides" src="project12.jpg" style="width:100%">
+                     <image class="mySlides" src="project3.jpg" style="width:100%">
+                        <image class="mySlides" src="project8.jpg" style="width:100%">
+                           <image class="mySlides" src="project5.jpg" style="width:100%">
+   
+
+   
+   </div>
+   <script>
+      var myIndex =0;
+      carousel1();
+      function carousel1()
+      {
+         var i;
+         var x=document.getElementsByClassName("mySlides");
+         for(i=0; i<x.length; i++)
+         {
+            x[i].style.display="none";
+
+         }
+         myIndex++;
+         if(myIndex >x.length) {myIndex=1}
+         x[myIndex-1].style.display="block";
+         setTimeout(carousel1,2000);
+      }
+   </script>
+   
+   <div class="subscription">
+      <h1><marquee>REGISTRATION FORM</marquee></h1>
+<div class="register">
+<h2><i>REGISTER HERE</i></h2>
+<form method="post" id="register" action="">
+   <label>First name:</label>
+   <input type="text" name="Fname" id="name" placeholder="Enter Your First name"></br/><br/>
+   <label>Last name:</label>
+   <input type="text" name="Lname" id="name" placeholder="Enter Your Last name"><br/><br/>
+   <label>Mobile Number:</label><br>
+   <select id="ph">
+   <option>+91</option>
+   <option>+92</option>
+   <option>+93</option>
+   <option>+94</option>
+   <option>+95</option>
+   </select>
+   <input type="number" name="num" id="name" placeholder="Enter Your Mobile number"><br/>
+   <label>Email Id:</label><br/>
+   <input type="email" name="email" id="name" placeholder="Enter Your email id"><br/><br/>
+   <label>Password:</label>
+   <input type="password" name="pass" id="name" placeholder="Enter Your password here"><br/><br/>
+   <label>GENDER:</label>
+   <input type="radio" name="rd1" id="rd1"><label>Male</label>&nbsp;&nbsp; 
+   <input type="radio" name="rd1" id="rd2"><label>female</label>&nbsp;<br/><br/>
+   <center><input type="submit" value="submit" id="sub" ></center><br/><br/><br/>
+   </form>
+   </div>
+   <h1><marquee>CONTACT US</marquee></h1>
+   <div class="Contact">
+      <center>
+        <img src="vdk.jpg">
+         </center>
+         <div style="text-align: left;">
+         <p ><b>Contact US:</b></p><p style="text-align:right;"><b>Contact US:</b></p><p style="text-align: right;">CONTACT No: 9876543210</p>
+         <p>ADDRESS: Phagwara</p> <p style="text-align: right;">Email-ID: vijay4577@gmail.com</p>
+         <p>CONTACT No: 9876543210</p>
+            </div>
+            <center><p>FOLLOW US ON:</p><div class="social">
+               <a href=""><i class="fab fa-facebook-f">acebook</i></a>
+               <a href=""><i class="fab fa-twitter">Twitter</i></a>
+               <a href=""><i class="fab fa-instagram">Instagram</i></a>
+               </div></center>
+   </div>
+<div class="heading">
+<h1><a href="#">.......Start Training Now......</a></h1><br/>
+</div>
+</center>
+</div>
+<div class="end">
+<h1 align="center"><marquee><b>"JOIN OUR CLUB"</b></marquee></h1>
+</div>
+</body>
+</html>
